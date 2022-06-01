@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd -not -name 'bin'
+grep -iv "bin" /etc/passwd
